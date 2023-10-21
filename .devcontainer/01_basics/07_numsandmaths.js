@@ -25,10 +25,10 @@
 // console.log(Math.ceil(4.2));
 // console.log(Math.floor(4.2));
 
-console.log((Math.random()*10) +1);
+// console.log((Math.random()*10) +1);
 
 
-const min =10
-const max =20
+// const min =10
+// const max =20
 
 // console.log(math.floor(Math.random() * (max -min +1)) +min);
