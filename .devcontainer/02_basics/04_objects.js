@@ -59,3 +59,33 @@ users[1].email
 // console.log(Object.entries(tinderUser))//[ [ 'id', '123abc' ], [ 'name', 'linku' ], [ 'isLoggedIn', false ] ]
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+//de structuring of objects 
+
+const course ={
+    courseNmae:"Js In Hindi",
+    price:"999",
+    courseInstructure:'Linku'
+}
+
+// course.courseInstructure
+
+// const {courseInstructure} = course
+// const {courseInstructure : linku} = course // this is also another way of de structurling values inside an object
+// console.log(linku);
+
+//de sturcturing in react
+// const navbar =({complany})=>{
+// }
+// navbar(complany ="linku")
+
+
+//API structure
+// {
+//     "name":'linku',
+//     "age":'25',
+//     "email":'linku@gmail.com',
+//     "cource":'js',
+// }
+
