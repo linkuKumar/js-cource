@@ -49,5 +49,5 @@ const chai = ()=> {
 // console.log(addTwo(5,6));
 
 // const addTwo =(num1,num2)=> (num1 + num2) // here we no need to write down return 
-const addTwo =(num1,num2)=> ({username:'hitesh'}) // here we no need to write down return 
+const addTwo = (num1,num2)=> ({username:'hitesh'}) // here we no need to write down return 
 console.log(addTwo(5,6)); 
